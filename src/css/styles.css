@@ -1,0 +1,220 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    height: 50px;
+    background-color: #252525;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+header {
+    position: relative;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style: none;
+}
+
+.menu .menu_link {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader {
+    margin-top: 50px;
+    height: 84px;
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    width: 100%;
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .subheader_official {
+    margin-top: 6px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+.subheader_call {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 19px;
+    text-align: right;
+}
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 8px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: right;
+    line-height: 12px;
+    text-decoration: none;
+}
+
+.subheader .subheader_button {
+    margin-top: 19px;
+    border-radius: 4px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,0.12);
+    border: none;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-shadow: 1px 1px rgba(0,0,0,0.21);
+
+}
+
+.promo {
+    min-height: 800px;
+    padding: 150px 0 135px 0;
+    background: url('../img/first_back.png') center center/cover no-repeat;
+}
+
+.promo .promo_header {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.promo .promo_subheader {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+    text-align: center;
+}
+
+.promo .promo_descr {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 23px;
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 118px auto 0 auto;
+    border-radius: 4px;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 rgba(0,0,0,0.12);
+    border: none;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-shadow: 1px 1px rgba(0,0,0,0.21);
+}
+
+.advantages .advantages_header {
+    color: #fff;
+    background-color: #000;
+    width: 112px;
+    height: 24px;
+    display: block;
+    margin: 71px  auto 0 auto;
+}
+
+.advantages .advantages_header .advantages_header_text {
+    display: block;
+    padding-top: 5px;
+    font-weight: 300;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.advantages .advantages_subheader {
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    margin-top: 37px;
+}
+
+.advantages .adv_item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.icon_round {
+    height: 113px;
+    width: 113px;
+    display: flex;
+    margin-right: 26px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantages_items {
+    margin-top: 43px;
+}
+
+ .item_text {
+     width: 347px;
+}
+
+.item_subheader {
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.item_descr {
+    margin-top: 5px;
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: justify;
+}
+
+.adv_icon {
+    align-self: center;
+}
