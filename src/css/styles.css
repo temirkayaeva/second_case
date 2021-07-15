@@ -1,7 +1,10 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
-
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
 nav {
     height: 50px;
     background-color: #252525;
@@ -144,6 +147,10 @@ header {
     text-transform: uppercase;
     font-size: 18px;
     text-shadow: 1px 1px rgba(0,0,0,0.21);
+}
+
+.advantages {
+    padding: 71px 0 65px 0;
 }
 
 .advantages .advantages_header {
